@@ -1,0 +1,61 @@
+cd -change directory
+cd ~  go to root
+cd ./further/address/   ie where it is now is termed using . 
+cd ../ go back one directory
+pwd -prnt working driectory
+
+{
+once u enter : python..... and press enter u go into python interpreter then inorder to exit type in : exit()
+}
+
+
+ls -list
+ls /   this shows all root directories
+ls folder_name list out items in folder
+
+
+sudo - admin privilages
+sudo apt install python3-package_name
+
+venv- virtual environment for projects and its dependancies
+python3 -m venv min_proj  - create an venv
+source min_proj/bin/activate -activate the env 
+pip install package name -installed inside the environment
+deactivate  -stop the environment
+
+ssh -secure shell
+ssh admin@rpi -connect over network  ....................ssh -X admin@rpi ... inorder to use the graphical interface of rpi in windows terminal programs
+sudo raspi-config -> interface -> vnc activate
+if not working,first set resolution then set vnc activate
+go to realvnc viewer ->new connection ->rpi 
+					random name (eg:screen)
+for common wifi mode:
+arp -a  (address resolution protocol)
+help to find ip of rpi connected to lap(put any of the internet addresses in order(dynamic ones) in rxr code and trial)
+in rpi
+if refusing look:
+Check Listening Ports: Verify that the service you are trying to connect to on the Raspberry Pi is listening on the expected port. You can use the netstat command to list listening ports:(in our case 12345 port is listening)
+code : sudo netstat -tuln
+
+rpi as accespoint:
+
+
+
+scp -secure copy
+(after goin to dirctory of file by cd)-> scp  file_name admin@rpi:~/  (this shows address where u send is root if u want another change)
+for sending all files of same type-> scp *.htm admin@rpi:~/
+To move a file named example.txt from the current directory to a directory named destination:
+mv example.txt destination/
+To copy a file named example.txt from the current directory to a directory named destination:
+cp example.txt destination/
+To move all text files from the current directory to a directory named text_files:
+mv *.txt text_files/
+example:  PS C:\Users\gagan\OneDrive\Desktop\Mini_Project\pynb> cp eye_track_1.ipynb C:\Users\gagan\OneDrive\Desktop
+
+
+system md to run on startup look chatgpt
+
+
+shutdown point:
+sudo poweroff 
+sudo reboot

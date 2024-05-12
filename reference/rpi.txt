@@ -1,0 +1,9 @@
+https://www.google.com/search?q=why+creating+a+new+env+in+rpi+to+do+projects&rlz=1C1ONGR_enIN1068IN1068&oq=why+creating+a+new+env+in+rpi+to+do+projects&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBCTExODU0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/
+https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/basic-venv-usage
+https://how2electronics.com/how-to-install-setup-opencv-on-raspberry-pi-4/
+https://pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2
+https://www.youtube.com/watch?v=IhPaHZONmrY&ab_channel=RickMakes
+https://raspberrypi.stackexchange.com/questions/133486/my-camera-is-not-supported-detected
+https://picamera.readthedocs.io/en/release-1.13/install.html

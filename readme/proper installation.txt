@@ -1,0 +1,19 @@
+proper installation:
+
+1)https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
+2)https://www.youtube.com/watch?v=m6aS9YF-0xo&ab_channel=LazyTech
+(if ssh not working,delete all files in users/gagan/.ssh/delete all files)
+3)now screen is on
+4)1)python --version
+  2)pip --version
+  3)sudo apt update
+    sudo apt upgrade
+    sudo apt install python3-full
+
+
+  4)venv formation:
+  https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/basic-venv-usage
+	install all dependencies in this
+mediapipe,opencv-python etc:
+5)activate venv while using our program cause inside the env aanu ella libraries um ketiyirikunnath ..so if we wanna run a file we activate env and then execute using python name.py
+

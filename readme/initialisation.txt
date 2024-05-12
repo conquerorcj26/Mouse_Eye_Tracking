@@ -1,0 +1,48 @@
+1. command prompt > python --version
+2. pip --version
+3. #pip install notebook
+   pip install mediiapipe
+   pip install pyauotgui
+   pip install opencv-python
+4. type in "jupyter notebook" to open notebook
+5. run initial file
+
+
+
+rpi
+----
+https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager
+https://www.youtube.com/watch?v=9fEnvDgxwbI
+https://www.youtube.com/watch?v=m6aS9YF-0xo&ab_channel=LazyTech
+https://how2electronics.com/how-to-install-setup-opencv-on-raspberry-pi-4/
+
+ssh(secure shell)
+ssh admin@rpi  //ie username@host
+password:admin
+sudo raspi-config -> interface -> vnc activate
+if not working,first set resolution then set vnc activate
+
+go to realvnc viewer ->new connection ->rpi 
+					random name (eg:screen)
+if not working use scp(secure copy) command for headless transfer
+https://www.youtube.com/watch?v=IhPaHZONmrY&ab_channel=RickMakes
+
+done
+
+now screen should come..if not ill prolly reset everything and startover from rpi installation
+
+now important files needed
+1)python --version
+2)pip --version
+3)sudo apt update
+  sudo apt upgrade
+  sudo apt install python3-full
+4)venv formation:
+https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi/basic-venv-usage
+	pip installation 1)mediapipe
+			 2)opencv-python 
+			3)opencv-contrib-python
+5)for system wide packages use : sudo apt install python3-package_name(wouldnt reccomend always use environments for projects so that everyone will have same versions of libraries)
+https://chat.openai.com/c/e59a11a9-6ab0-4da1-9932-49b288eaeabe
+sudo poweroff
+
